@@ -23,7 +23,6 @@
 .name:hover{
     text-shadow: 3px 3px 6px rgb(153, 31, 72);
     border: 2px solid rgb(68, 93, 238);
-
 }
 
 table {
@@ -44,3 +43,34 @@ table {
   tr:nth-child(even){
       background-color: #CFDAD9;
   }
+  
+/*Bonus CSS*/
+
+.navigationbar{
+    display: flex;
+    width:100%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.navigationbar .sec
+{
+    display: flex;
+    width: 60%;
+    padding: 25px;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: rgb(148, 133, 233);
+
+}
+
+.navigationbar .sec:hover{
+    font-weight: 800;
+}
+
+.navigationbar .sec a{
+    color: rgb(220, 235, 223);
+}
+
+
+
